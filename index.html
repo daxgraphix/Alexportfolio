@@ -3,20 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Alex Audax Rweyemamu - Digital, AI, cybersecurity, and youth development advocate.">
-  <title>Alex Audax Rweyemamu | Digital, AI & Innovation</title>
+  <meta name="description" content="Alex Rweyemamu is a Tanzanian digital, AI, cybersecurity, and youth development advocate building clearer, safer, and more inclusive technology experiences.">
+  <meta name="author" content="Alex Rweyemamu">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#101211">
+  <meta name="color-scheme" content="dark light">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://unpkg.com; connect-src 'self' https://unpkg.com; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=()">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Alex Rweyemamu | Digital, AI & Innovation">
+  <meta property="og:description" content="Digital safety, AI literacy, inclusive technology, and youth development from Tanzania.">
+  <meta property="og:image" content="./assets/images/ALEX.jpg">
+  <meta property="og:image:alt" content="Alex Rweyemamu">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Alex Rweyemamu | Digital, AI & Innovation">
+  <meta name="twitter:description" content="Digital safety, AI literacy, inclusive technology, and youth development from Tanzania.">
+  <meta name="twitter:image" content="./assets/images/ALEX.jpg">
+  <title>Alex Rweyemamu</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="dns-prefetch" href="//unpkg.com">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="manifest" href="./site.webmanifest">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Alex Rweyemamu",
+      "jobTitle": "Digital, AI & Innovation Advocate",
+      "description": "Tanzanian digital safety, AI literacy, and youth development advocate.",
+      "email": "alex@cyberswahili.co.tz",
+      "telephone": "+255753969379",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Dar es Salaam",
+        "addressCountry": "TZ"
+      },
+      "sameAs": ["https://www.linkedin.com/in/alexrweyemamu"]
+    }
+  </script>
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
   <main>
     <aside class="sidebar" data-sidebar>
       <div class="sidebar-info">
-        <figure class="avatar-box"><img src="./assets/images/ALEX.jpg" alt="Alex Audax Rweyemamu" width="150"></figure>
-        <div class="info-content"><h1 class="name">Alex Audax Rweyemamu</h1><p class="title">Digital, AI & Innovation</p></div>
-        <button class="info_more-btn" data-sidebar-btn aria-label="Show contacts"><span>Show Contacts</span><ion-icon name="chevron-down"></ion-icon></button>
+        <figure class="avatar-box"><img src="./assets/images/ALEX.jpg" alt="Alex Rweyemamu" width="150" height="150" fetchpriority="high" decoding="async"></figure>
+        <div class="info-content"><h1 class="name">Alex Rweyemamu</h1><p class="title">Digital, AI & Innovation</p></div>
+        <button class="info_more-btn" type="button" data-sidebar-btn aria-label="Show contacts" aria-expanded="false"><span>Show Contacts</span><ion-icon name="chevron-down"></ion-icon></button>
+        <button class="theme-toggle theme-toggle-visible" type="button" data-theme-toggle aria-label="Switch to light theme" title="Switch to light theme"><ion-icon name="sunny-outline"></ion-icon><span>Theme</span></button>
       </div>
       <div class="sidebar-info_more">
         <div class="separator"></div>
@@ -26,19 +64,19 @@
           <li class="contact-item"><div class="icon-box"><ion-icon name="location-outline"></ion-icon></div><div class="contact-info"><p class="contact-title">Based in</p><address>Dar es Salaam, Tanzania</address></div></li>
         </ul>
         <div class="separator"></div>
-        <ul class="social-list"><li class="social-item"><a href="https://www.linkedin.com/in/alexrweyemamu" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener"><ion-icon name="logo-linkedin"></ion-icon></a></li><li class="social-item"><button class="theme-toggle" data-theme-toggle aria-label="Switch to light theme" title="Switch theme"><ion-icon name="sunny-outline"></ion-icon></button></li></ul>
+        <ul class="social-list"><li class="social-item"><a href="https://www.linkedin.com/in/alexrweyemamu" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener"><ion-icon name="logo-linkedin"></ion-icon></a></li></ul>
       </div>
     </aside>
 
-    <div class="main-content">
+    <div class="main-content" id="main-content" tabindex="-1">
       <nav class="navbar" aria-label="Primary navigation"><ul class="navbar-list">
-        <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
-        <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
-        <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
-        <li class="navbar-item"><button class="navbar-link" data-nav-link>Speaking</button></li>
-        <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+        <li class="navbar-item"><button class="navbar-link active" type="button" data-nav-link data-page-target="about" aria-current="page">About</button></li>
+        <li class="navbar-item"><button class="navbar-link" type="button" data-nav-link data-page-target="portfolio">Portfolio</button></li>
+        <li class="navbar-item"><button class="navbar-link" type="button" data-nav-link data-page-target="resume">Resume</button></li>
+        <li class="navbar-item"><button class="navbar-link" type="button" data-nav-link data-page-target="speaking">Speaking</button></li>
+        <li class="navbar-item"><button class="navbar-link" type="button" data-nav-link data-page-target="contact">Contact</button></li>
       </ul></nav>
-      <button class="nav-visibility-toggle" data-nav-toggle aria-label="Hide navigation" aria-expanded="true"><ion-icon name="chevron-down-outline"></ion-icon></button>
+      <button class="nav-visibility-toggle" type="button" data-nav-toggle aria-label="Hide navigation" aria-expanded="true"><ion-icon name="chevron-down-outline"></ion-icon></button>
 
       <article class="about active" data-page="about">
         <header><p class="eyebrow">01 / About Alex</p><h2 class="h2 article-title">Digital, AI & Innovation.</h2></header>
@@ -47,6 +85,8 @@
         <section class="positioning-band"><div><span class="eyebrow">Positioning</span><h3 class="h3">A translator between technical systems and human possibility.</h3></div><p>For institutions, educators, and youth-focused programmes that need technology to become clearer, safer, and more inclusive.</p></section>
         <section class="engagement-lanes"><div><span class="lane-index">A</span><div><h4 class="h4">Make it understandable</h4><p>Translate complex ideas into clear, culturally relevant learning.</p></div></div><div><span class="lane-index">B</span><div><h4 class="h4">Make it actionable</h4><p>Turn awareness into habits, workshops, and useful next steps.</p></div></div><div><span class="lane-index">C</span><div><h4 class="h4">Make it inclusive</h4><p>Open access to knowledge across language, age, and experience.</p></div></div></section>
         <section class="about-columns"><div><p class="eyebrow">Point of view</p><h3 class="h3">Technology becomes transformative when people can understand it, question it, and shape it.</h3></div><div><p class="eyebrow">Focus</p><p class="muted-copy">Inclusive digital transformation, youth leadership, regional cooperation, and knowledge that travels in languages people live in.</p></div></section>
+        <section class="audience-section"><div><p class="eyebrow">Who this work serves</p><h3 class="h3">Different audiences. One commitment to useful knowledge.</h3></div><div class="audience-grid"><div><strong>Young people</strong><p>Build confidence to navigate AI, social platforms, work, and digital risk.</p></div><div><strong>Educators</strong><p>Find clear examples and activities that make technical topics teachable.</p></div><div><strong>Institutions</strong><p>Design programmes that connect innovation with trust, inclusion, and action.</p></div></div></section>
+        <section class="working-style"><p class="eyebrow">How I work</p><div class="working-style-grid"><p><strong>Start with listening.</strong> The right solution begins with the audience, language, context, and decision they need to make.</p><p><strong>Build for practice.</strong> A session, campaign, or resource should give people something they can try, share, and improve.</p><p><strong>Leave the door open.</strong> Good learning creates the confidence and curiosity to keep going after the engagement ends.</p></div></section>
         <a class="text-link" href="#" data-nav-target="portfolio">Explore the work <ion-icon name="arrow-forward-outline"></ion-icon></a>
       </article>
 
@@ -64,6 +104,7 @@
         <section class="case-study"><div class="case-study-heading"><p class="eyebrow">Featured programme</p><h3 class="h3">CyberSwahili University Roadshow</h3><p>A practical learning format for turning cyber hygiene, AI basics, and digital sustainability into conversations students can use immediately.</p></div><div class="case-study-grid"><div><span class="step-label">The brief</span><p>Make unfamiliar digital risks feel relevant, local, and discussable.</p></div><div><span class="step-label">The method</span><p>Combine accessible Swahili content, live workshops, relatable examples, and open questions.</p></div><div><span class="step-label">The outcome</span><p>Hundreds of students reached with clearer language, safer habits, and confidence to keep learning.</p></div></div></section>
         <section class="practice-strip"><div><p class="eyebrow">Workshop & conference practice</p><h3 class="h3">A clear path from signal to action.</h3></div><ol class="practice-list"><li><strong>01</strong><span>Listen for the real question</span></li><li><strong>02</strong><span>Translate the technical idea</span></li><li><strong>03</strong><span>Practice it together</span></li><li><strong>04</strong><span>Leave a useful next step</span></li></ol></section>
         <section class="impact-panel"><div><p class="eyebrow">07 / Impact, conferences & workshops</p><h3 class="h3">Turning reach into evidence.</h3><p>My impact is measured in people reached, skills practiced, ideas shared, and institutions that can carry the work forward.</p></div><div class="impact-stats"><div><strong>Hundreds</strong><span>learners trained through university roadshows</span></div><div><strong>Universities</strong><span>institutions reached through education programmes</span></div><div><strong>Swahili</strong><span>publications and digital safety resources localized</span></div><div><strong>Partnerships</strong><span>workshops, shared knowledge, and outcomes for SDG 4</span></div></div></section>
+        <section class="deliverables-section"><div><p class="eyebrow">What can be delivered</p><h3 class="h3">A clear idea can become a useful experience.</h3><p class="muted-copy">Projects can be shaped around a single session or a longer learning programme, depending on the audience and the outcome you need.</p></div><div class="deliverables-grid"><div><span>01</span><h4 class="h4">Talks & keynotes</h4><p>Accessible perspectives on AI, cyber resilience, digital trust, and the future of work.</p></div><div><span>02</span><h4 class="h4">Workshops</h4><p>Interactive sessions where participants discuss scenarios, practice decisions, and leave with next steps.</p></div><div><span>03</span><h4 class="h4">Learning resources</h4><p>Briefs, guides, Swahili-first content, and campaign materials built for sharing.</p></div><div><span>04</span><h4 class="h4">Programme design</h4><p>Audience research, learning journeys, facilitation plans, and practical impact measures.</p></div></div></section>
       </article>
 
       <article class="resume" data-page="resume">
@@ -72,11 +113,14 @@
         <section class="timeline"><div class="title-wrapper"><div class="icon-box"><ion-icon name="briefcase-outline"></ion-icon></div><h3 class="h3">Work experience</h3></div><ol class="timeline-list"><li class="timeline-item"><h4 class="h4 timeline-item-title">Founder & Digital Safety Educator · CyberSwahili</h4><span>2023 — Present</span><p class="timeline-text">Designed and launched the CyberSwahili University Roadshow, training hundreds of students in cyber hygiene, AI basics, and digital sustainability. Developed localized awareness content in Swahili and advocated for SDG 4 through inclusive learning.</p></li><li class="timeline-item"><h4 class="h4 timeline-item-title">ARINC Network Engineer Support · JNIA Terminal</h4><span>2023 — 2025</span><p class="timeline-text">Installed, configured, and optimized LAN/WAN infrastructure and ARINC aviation network systems. Implemented network security measures and supported terminal staff.</p></li></ol></section>
         <section class="timeline"><div class="title-wrapper"><div class="icon-box"><ion-icon name="school-outline"></ion-icon></div><h3 class="h3">Education</h3></div><ol class="timeline-list"><li class="timeline-item"><h4 class="h4 timeline-item-title">BSc. Computer Engineering and IT</h4><span>2023 — 2026</span><p class="timeline-text">The United African University of Tanzania</p></li><li class="timeline-item"><h4 class="h4 timeline-item-title">Diploma in Information and Communication Technology</h4><span>2020 — 2022</span><p class="timeline-text">The Mwalimu Nyerere Memorial Academy</p></li></ol></section>
         <section class="credentials"><h3 class="h3">Certifications</h3><ul class="credential-list"><li>Certified in Cybersecurity (ISC2)</li><li>CCNA: Switching, Routing, and Wireless Essentials</li><li>CCNA: Enterprise Networking, Security, and Automation</li><li>Cyber Crime Detection and Prevention (IFM)</li></ul></section>
+        <section class="capability-panel"><div class="capability-heading"><p class="eyebrow">Capability snapshot</p><h3 class="h3">Technical depth with a people-first delivery style.</h3><p>Three connected strengths help turn complex technology into work people can understand, practice, and carry forward.</p></div><div class="capability-list"><div class="capability-card"><div class="capability-card-top"><span class="capability-icon"><ion-icon name="server-outline"></ion-icon></span><strong>Technical systems</strong></div><p>Keep the infrastructure and security fundamentals grounded in real operational contexts.</p><div class="capability-tags"><span>Network administration</span><span>LAN/WAN</span><span>Security fundamentals</span><span>Infrastructure support</span></div></div><div class="capability-card"><div class="capability-card-top"><span class="capability-icon"><ion-icon name="school-outline"></ion-icon></span><strong>Learning design</strong></div><p>Turn technical knowledge into sessions, examples, and activities people can use immediately.</p><div class="capability-tags"><span>Facilitation</span><span>Curriculum translation</span><span>Youth engagement</span><span>Workshop design</span></div></div><div class="capability-card"><div class="capability-card-top"><span class="capability-icon"><ion-icon name="megaphone-outline"></ion-icon></span><strong>Public communication</strong></div><p>Make important ideas travel through clear speaking, storytelling, and locally relevant language.</p><div class="capability-tags"><span>Public speaking</span><span>Digital storytelling</span><span>Swahili localization</span><span>Stakeholder coordination</span></div></div></div></section>
+        <section class="resume-note"><ion-icon name="arrow-forward-outline"></ion-icon><p>Looking for a profile, speaker introduction, or programme biography? <a href="#" data-nav-target="contact">Start with the contact page</a> and share the context.</p></section>
       </article>
 
       <article class="speaking" data-page="speaking">
         <header><p class="eyebrow">Conferences · speaking · workshops</p><h2 class="h2 article-title">Ideas made useful in public.</h2></header>
         <section class="speaking-intro"><p>Alex works across university spaces, youth programmes, and community learning environments, translating technical subjects into conversations people can act on.</p><div class="speaking-topics"><span>AI literacy</span><span>Digital safety</span><span>Youth leadership</span><span>Swahili knowledge</span></div></section>
+        <section class="format-panel"><div><p class="eyebrow">Available formats</p><h3 class="h3">The format follows the audience.</h3></div><div class="format-grid"><div><strong>Keynote</strong><p>A focused point of view for conferences and public events.</p></div><div><strong>Workshop</strong><p>Practical learning with discussion, scenarios, and shared reflection.</p></div><div><strong>Panel</strong><p>A grounded contribution that connects technical issues to lived experience.</p></div><div><strong>Masterclass</strong><p>A deeper session for students, professionals, or community leaders.</p></div></div></section>
         <section class="engagement-list"><article class="engagement-item"><div class="engagement-type">Speaker<br>Dar es Salaam</div><div><p class="eyebrow">AI, Data & Cybersecurity Roadshow Tanzania · 2026</p><h3 class="h3">Building secure, responsible and resilient AI futures</h3><p>Shared the stage with technology leaders, cybersecurity professionals, data experts, innovators, and students to explore mission-critical AI infrastructure, intelligent data centres, governance, cyber resilience, digital transformation, and responsible innovation.</p><blockquote>“Pause before you click. Verify before you trust. Think before you share.”</blockquote><div class="card-tags"><span>AI governance</span><span>Cyber resilience</span><span>Human layer</span></div></div></article><article class="engagement-item"><div class="engagement-type">Invited<br>speaker</div><div><p class="eyebrow">Fintech Society of Tanzania Annual Conference · 2026</p><h3 class="h3">Building digital trust where innovation meets the real economy</h3><p>Spoke about financial inclusion as a safety responsibility, especially for mobile-money agents and rural users. The session connected simple Swahili security messages, practical simulations, AI transparency, and access to human support.</p><blockquote>“Digital trust starts with people.”</blockquote><div class="card-tags"><span>Financial inclusion</span><span>Mobile money safety</span><span>Responsible AI</span></div></div></article><article class="engagement-item"><div class="engagement-type">Roadshow<br>participant</div><div><p class="eyebrow">AI, Data & Cybersecurity Roadshow Tanzania · 2026</p><h3 class="h3">From technology conversations to shared responsibility</h3><p>Reflected on a cross-sector gathering in Dar es Salaam where experts and students moved beyond AI hype to discuss data, intelligent infrastructure, governance, cyber resilience, and the responsibilities of adoption.</p><div class="card-tags"><span>Conference reflection</span><span>Digital transformation</span><span>Resilience</span></div></div></article><article class="engagement-item"><div class="engagement-type">Programme<br>facilitator</div><div><p class="eyebrow">AI Education Content Competition · 2026</p><h3 class="h3">From passive consumers to active AI creators</h3><p>As Founder of CyberSwahili, led participants through deep-dive AI application practicals in a programme supported by Eduize and Tanzanite Prime. Students left with usable digital tools, a creator mindset, and an ethics-first approach.</p><div class="card-tags"><span>AI education</span><span>Practical learning</span><span>Ethics first</span></div></div></article></section>
         <article class="engagement-item"><div class="engagement-type">Speaker<br>Dar es Salaam</div><div><p class="eyebrow">ICAFoW 2025 · Aura Suite Hotel · Dar es Salaam</p><h3 class="h3">Building a cyber-aware generation for the future of work</h3><p>Shared a vision for strengthening cyber resilience and explored why cybersecurity awareness is now a core skill for the next workforce, how AI is reshaping defence, and how businesses can recover and keep moving forward.</p><blockquote>“Building a Cyber-Aware Generation for the Future of Work & Strengthening Cyber Resilience.”</blockquote><div class="card-tags"><span>Future of work</span><span>Cyber resilience</span><span>Cybersecurity awareness</span></div></div></article>
         <article class="engagement-item"><div class="engagement-type">Keynote<br>speaker</div><div><p class="eyebrow">EMAI Conference 2025 · 25—27 September · Dar es Salaam</p><h3 class="h3">AI & Cyber Smart: For Future of Work</h3><p>Representing CyberSwahili, shared insights on how AI is transforming work cultures, why digital safety matters in AI-powered environments, and the frameworks communities need to thrive in a technology-driven future.</p><blockquote>“AI for good means using collaboration, creativity, productivity, and safer digital environments together.”</blockquote><div class="card-tags"><span>AI for good</span><span>Work cultures</span><span>Digital safety</span></div></div></article>
@@ -84,10 +128,11 @@
         <article class="engagement-item"><div class="engagement-type">Programme<br>co-creator</div><div><p class="eyebrow">CyberSwahili × LinkedInLocal Tanzania · 2026</p><h3 class="h3">LinkedIn Level-Up Masterclass</h3><p>Created a practical learning experience for professionals and job seekers, helping participants move beyond simply creating a CV toward building a visible, credible, opportunity-ready professional brand.</p><div class="card-tags"><span>Professionals</span><span>Job seekers</span><span>Visibility</span></div></div></article>
       </article>
 
-      <article class="contact" data-page="contact"><header><p class="eyebrow">Let’s collaborate</p><h2 class="h2 article-title">Start a useful conversation.</h2></header><section class="about-text"><p>For conversations about youth empowerment, digital safety education, cybersecurity awareness, AI literacy, or inclusive digital transformation, reach out directly.</p></section><section class="collaboration-brief"><p class="eyebrow">A good first brief</p><h3 class="h3">Tell me what you are trying to make clearer, safer, or more possible.</h3><ul><li>Youth or educator learning programmes</li><li>Cybersecurity and digital safety campaigns</li><li>AI literacy and responsible technology sessions</li><li>Swahili knowledge and communication projects</li></ul></section><ul class="contact-cards"><li><ion-icon name="mail-outline"></ion-icon><div><span>Email</span><a href="mailto:alex@cyberswahili.co.tz">alex@cyberswahili.co.tz</a></div></li><li><ion-icon name="logo-linkedin"></ion-icon><div><span>LinkedIn</span><a href="https://www.linkedin.com/in/alexrweyemamu" target="_blank" rel="noopener">linkedin.com/in/alexrweyemamu</a></div></li><li><ion-icon name="location-outline"></ion-icon><div><span>Based in</span><p>Dar es Salaam, Tanzania</p></div></li></ul></article>
+      <article class="contact" data-page="contact"><header><p class="eyebrow">Let’s collaborate</p><h2 class="h2 article-title">Start a useful conversation.</h2></header><section class="about-text"><p>For conversations about youth empowerment, digital safety education, cybersecurity awareness, AI literacy, or inclusive digital transformation, reach out directly.</p></section><section class="collaboration-brief"><p class="eyebrow">A good first brief</p><h3 class="h3">Tell me what you are trying to make clearer, safer, or more possible.</h3><ul><li>Youth or educator learning programmes</li><li>Cybersecurity and digital safety campaigns</li><li>AI literacy and responsible technology sessions</li><li>Swahili knowledge and communication projects</li></ul></section><section class="contact-flow"><p class="eyebrow">What happens next</p><div class="contact-flow-grid"><div><span>01</span><strong>Share the context</strong><p>Tell me about your audience, goal, timing, and the question behind the request.</p></div><div><span>02</span><strong>Shape the response</strong><p>We identify the right format, message, and level of practical support.</p></div><div><span>03</span><strong>Make it useful</strong><p>The engagement ends with clearer knowledge, a practical experience, or a next step.</p></div></div></section><ul class="contact-cards"><li><ion-icon name="mail-outline"></ion-icon><div><span>Email</span><a href="mailto:alex@cyberswahili.co.tz">alex@cyberswahili.co.tz</a></div></li><li><ion-icon name="logo-linkedin"></ion-icon><div><span>LinkedIn</span><a href="https://www.linkedin.com/in/alexrweyemamu" target="_blank" rel="noopener">linkedin.com/in/alexrweyemamu</a></div></li><li><ion-icon name="location-outline"></ion-icon><div><span>Based in</span><p>Dar es Salaam, Tanzania</p></div></li></ul></article>
     </div>
   </main>
-  <script src="./assets/js/script.js"></script>
+  <noscript><p class="noscript-message">This portfolio needs JavaScript enabled for page navigation and theme controls.</p></noscript>
+  <script src="./assets/js/script.js" defer></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>

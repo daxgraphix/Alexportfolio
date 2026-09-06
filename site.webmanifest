@@ -1,0 +1,17 @@
+{
+  "name": "Alex Rweyemamu | Digital, AI & Innovation",
+  "short_name": "Alex Rweyemamu",
+  "description": "Digital safety, AI literacy, inclusive technology, and youth development from Tanzania.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#101211",
+  "theme_color": "#101211",
+  "icons": [
+    {
+      "src": "./assets/images/ALEX.jpg",
+      "sizes": "150x150",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}
